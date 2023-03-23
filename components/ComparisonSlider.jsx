@@ -50,7 +50,7 @@ const ComparisonSlider = ({ beforeImage, afterImage }) => {
             <div className='max-w-[1400px] my-0 mx-auto'>
                 {/* pb-[68.23%] 這應該照圖片變化 */}
                 <div className="w-[calc(100%-2rem)] mx-4 my-8 relative">
-                    {/* 撐開用 */}
+                    {/* 撐開用要同樣尺寸圖片，以before為基礎 */}
                     <img
                         src={beforeImage}
                     />
